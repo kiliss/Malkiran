@@ -41,7 +41,7 @@ export default function Home() {
           imagen={product.imagen}
           categoria={product.categoria}
           />
-        )) : filter !== "Todo" && search === "" ? products[0]?.productos?.filter(product => product.categoria === filter).map((product) => (
+        )) : filter !== "Todo" && search === "" ? products[0]?.productos?.filter(product => product.categoria.includes(filter)).map((product) => (
           <Card
           key={product.id}
           id={product.id}
@@ -50,7 +50,7 @@ export default function Home() {
           imagen={product.imagen}
           categoria={product.categoria}
           />
-        )) : products[0]?.productos?.filter(product => product.categoria === filter && product.nombre.toLowerCase().includes(search.toLowerCase())).map((product) => (
+        )) : products[0]?.productos?.filter(product => product.categoria.includes(filter) && product.nombre.toLowerCase().includes(search.toLowerCase())).map((product) => (
           <Card
           key={product.id}
           id={product.id}
