@@ -17,7 +17,7 @@ export default function Home() {
 
   let products = taskState
 
-  let a = products[0]?.productos?.filter(product => product.categoria === filter && product.nombre.toLowerCase().includes(search.toLowerCase()))
+  let a = products[0]?.productos?.filter(product => product.categoria.includes(filter) && product.nombre.toLowerCase().includes(search.toLowerCase()))
 
 
   return (
