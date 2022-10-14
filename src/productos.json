@@ -1,0 +1,50 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "nombre":"Florcita en maceta ",
+            "precio":900,
+            "imagen":[
+                "https://i.imgur.com/vxvW0tf.jpg",
+                "https://i.imgur.com/0bQZhtE.jpg"
+            ],
+            "descripcion":"Medida aproximada: 14cm, puede ser un girasol o una margarita, contiene relleno pesado para que se mantenga parada",
+            "categoria": ["Decoracion"]
+        },
+        {
+            "id":2,
+            "nombre":"Mini gatitos personalizados",
+            "precio":700,
+            "imagen":[
+                "https://i.imgur.com/A4kx6um.jpg",
+                "https://i.imgur.com/XkcaSUG.jpg"
+            ],
+            "descripcion":"Medida aproximada 5cm, puede encargarse para llavero o sine",
+            "categoria": ["Mini Amigurumi"]
+        },
+        {
+            "id":3,
+            "nombre":"Mini perrito sentado personalizado",
+            "precio":700,
+            "imagen":[
+                "https://i.imgur.com/qKv4wBz.jpg",
+                "https://i.imgur.com/h4u7Xrl.jpg",
+                "https://i.imgur.com/u0EBmfr.jpg",
+                "https://i.imgur.com/ADVuOak.jpg"
+            ],
+            "descripcion":"Medida aproximada 12cm, puede encargarse para llavero o sin",
+            "categoria": ["Mini Amigurumi"]
+        },
+        {
+            "id":4,
+            "nombre":"Mini perrito parado personalizado",
+            "precio":700,
+            "imagen":[
+                "https://i.imgur.com/tlFG1aA.jpg",
+                "https://i.imgur.com/XGiP3WO.jpg"
+            ],
+            "descripcion":"Medida aproximada 12cm, puede encargarse para llavero o sin",
+            "categoria": ["Mini Amigurumi"]
+        }
+    ]
+}
