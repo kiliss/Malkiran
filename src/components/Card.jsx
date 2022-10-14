@@ -1,3 +1,6 @@
+import PopUp from "./PopUp";
+
+
 export default function Card({id, nombre, precio, imagen, categoria}) {
   return (
     <div className="max-w-2xl m-3" key={id}>
@@ -12,11 +15,11 @@ export default function Card({id, nombre, precio, imagen, categoria}) {
                     }
                     <div className="flex items-center justify-between mt-10">
                         <span className="text-3xl font-bold text-white dark:text-white">${precio}</span>
-                        <a href="#"
-                            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Mas info</a>
+                        <PopUp id={id}/>
                     </div>
                 </div>
         </div>
     </div>
   );
 }
+

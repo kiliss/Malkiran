@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./components/Home";
 import SideBar from "./components/SideBar";
 import NavBar from "./components/NavBar";
+import PopUp from "./components/PopUp";
 
 
 
@@ -15,6 +16,7 @@ function App() {
 
 
       <Routes>
+        <Route path="/a" element={<PopUp />} />
         
         <Route path="/" element={<Home />} />
         

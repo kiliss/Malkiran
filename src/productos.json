@@ -14,7 +14,7 @@
         {
             "id":2,
             "nombre":"Mini gatitos personalizados",
-            "precio":700,
+            "precio":"700 - $600",
             "imagen":[
                 "https://i.imgur.com/A4kx6um.jpg",
                 "https://i.imgur.com/XkcaSUG.jpg"
@@ -38,13 +38,51 @@
         {
             "id":4,
             "nombre":"Mini perrito parado personalizado",
-            "precio":700,
+            "precio":"700 - $600",
             "imagen":[
                 "https://i.imgur.com/tlFG1aA.jpg",
                 "https://i.imgur.com/XGiP3WO.jpg"
             ],
             "descripcion":"Medida aproximada 12cm, puede encargarse para llavero o sin",
             "categoria": ["Mini Amigurumi"]
+        },
+        {
+            "id":5,
+            "nombre":"Mini búho",
+            "precio":"400 o $500",
+            "imagen":[
+                "https://i.imgur.com/wqeWLLr.jpg",
+                "https://i.imgur.com/eFtERPL.jpg"
+            ],
+            "descripcion":"Medida aprox: 6cm, la combinación de colores es a elección, puede encargarse con llavero o sin",
+            "categoria": ["Mini Amigurumi"]
+        },
+        {
+            "id":6,
+            "nombre":"Cartera tipo bandolera",
+            "precio":"1400",
+            "imagen":[
+                "https://i.imgur.com/IAbFJjr.jpg",
+                "https://i.imgur.com/wfKUhCQ.jpg",
+                "https://i.imgur.com/U5DL6rQ.jpg"
+            ],
+            "descripcion":"Medida aprox: 25cm, l color es a elección (consultar colores disponibles en hilos matizados)", 
+            "categoria": ["Bolsos"]
+        },
+        {
+            "id":7,
+            "nombre":"Conejito sentado",
+            "precio":"800",
+            "imagen":[
+                "https://i.imgur.com/EgBPYym.jpg",
+                "https://i.imgur.com/UtBCtxM.jpg",
+                "https://i.imgur.com/mqKD0fs.jpg"
+            ],
+            "descripcion":"Medida aproximada: 14cm, lleva como accesorios una flor o una zanahoria", 
+            "categoria": ["Amigurumi"]
         }
+
+
+
     ]
 }

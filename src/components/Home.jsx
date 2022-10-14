@@ -1,6 +1,6 @@
 import Card from './Card';
 import { useSelector, useDispatch } from 'react-redux';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { addProduct } from '../features/task/taskSlice';
 
 

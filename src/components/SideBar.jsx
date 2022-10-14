@@ -2,15 +2,13 @@ import { useState } from 'react';
 import logo from "../logoo.jpg";
 import { Select, Option } from "@material-tailwind/react";
 import {BiCategory } from "react-icons/bi";
-import {BsSearch} from 'react-icons/bs';
-import { useSelector, useDispatch } from 'react-redux';
-import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { filterProduct, searchProduct } from '../features/task/taskSlice';
 
 export default function SideBar() {
   const dispatch = useDispatch();
+  // eslint-disable-next-line no-unused-vars
   const [category, setCategory] = useState('');
-  const [search, setSearch] = useState('');
    const [showSidebar, setShowSidebar] = useState(false);
 
   // useEffect(() => {
@@ -26,10 +24,6 @@ export default function SideBar() {
     
     dispatch(searchProduct(e));
   }
-
-
- 
-
 	return (
 <div>
   {showSidebar ? (
