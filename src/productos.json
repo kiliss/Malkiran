@@ -92,6 +92,42 @@
             ],
             "descripcion":"Medida aproximada: 22cm, el largo puede ser a tu elección", 
             "categoria": ["Amigurumi"]
+        },
+        {
+            "id":9,
+            "nombre":"Pouch bag",
+            "precio":1500,
+            "imagen":[
+                "https://i.imgur.com/YCfMd3f.jpg",
+                "https://i.imgur.com/PiMnOrJ.jpg",
+                "https://i.imgur.com/NCswWZ0.jpg"
+            ],
+            "descripcion":"Medidas aproximadas: 11cm de diámetro y 13cm de alto El modelo puede ser con o sin apliques y estos a su vez pueden ser distintos diseños. La combinación de colores es a elección", 
+            "categoria": ["Bolsos"]
+        },
+        {
+            "id":10,
+            "nombre":"Mini palomita",
+            "precio":700,
+            "imagen":[
+                "https://i.imgur.com/U0fNgGJ.jpg",
+                "https://i.imgur.com/z1Rzj5w.jpg",
+                "https://i.imgur.com/W8TXtfM.jpg"
+            ],
+            "descripcion":"Medida aproximada: 5cm. La combinación de colores es a elección", 
+            "categoria": ["Mini Amigurumi"]
+        },
+        {
+            "id":11,
+            "nombre":"Top Luci",
+            "precio":2500,
+            "imagen":[
+                "https://i.imgur.com/w695CBA.jpg",
+                "https://i.imgur.com/uNgqnB3.jpg",
+                "https://i.imgur.com/cxnzg8e.jpg"
+            ],
+            "descripcion":"Top de algodón, con espalda cerrada. Para las medidas consultar tablas", 
+            "categoria": ["Top/Crop Tops"]
         }
     ]
 }
